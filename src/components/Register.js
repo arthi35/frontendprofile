@@ -71,7 +71,7 @@ const Register = () => {
             // console.log("user registration succesfully done");
 
 
-            const data = await fetch("http:localhost:4000/register", {
+            const data = await fetch("https://nutty-fedora-hen.cyclic.app/register", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

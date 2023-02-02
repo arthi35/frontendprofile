@@ -16,7 +16,7 @@ const Dashboard = () => {
     const DashboardValid = async () => {
         let token = localStorage.getItem("usersdatatoken");
 
-        const res = await fetch("http://localhost:4000/validuser", {
+        const res = await fetch("https://nutty-fedora-hen.cyclic.app/validuser", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

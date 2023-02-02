@@ -52,7 +52,7 @@ const Login = () => {
             // console.log("user login succesfully done");
 
 
-            const data = await fetch("http://localhost:4000/login",{
+            const data = await fetch("https://nutty-fedora-hen.cyclic.app/login",{
                 method:"POST",
                 headers:{
                     "Content-Type":"application/json"
